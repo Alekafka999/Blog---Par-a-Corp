@@ -51,10 +51,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 <button type="submit">Entrar</button>
             </form>
 
-            <p class="small-note">Padrão: <code>admin</code> / <code>admin123</code></p>
+            <p class="small-note">Nao tem conta? <a href="register.php">Criar cadastro</a></p>
+            <p class="small-note"><a href="forgot.php">Esqueci minha senha</a></p>
+            <p class="small-note">Credenciais definidas em <code>config.php</code>.</p>
             <p><a href="index.php">Voltar para o blog</a></p>
         </section>
     </main>
 </body>
 </html>
-

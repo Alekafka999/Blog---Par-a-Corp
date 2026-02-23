@@ -399,6 +399,30 @@ button:hover,
     font-size: 0.9rem;
 }
 
+.admin-post-actions {
+    display: flex;
+    gap: 0.75rem;
+    margin-top: 0.5rem;
+    align-items: center;
+}
+
+.admin-post-actions form {
+    margin: 0;
+}
+
+.link-button {
+    border: none;
+    background: none;
+    padding: 0;
+    color: var(--primary);
+    cursor: pointer;
+    font: inherit;
+}
+
+.link-button.danger {
+    color: var(--danger);
+}
+
 @media (max-width: 900px) {
     .layout,
     .admin-layout {
@@ -415,4 +439,3 @@ button:hover,
         flex-wrap: wrap;
     }
 }
-
